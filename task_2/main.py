@@ -44,7 +44,6 @@ def login(form_data:OAuth2PasswordRequestForm = Depends()):
     token = create_access_token(
         data={"sub": user["username"]}, expires_delta=access_token_expires
      )
-    
     return {"access_token":token , "token_type":"bearer"}
 
 @app.get("/me",response_model=UserOut)

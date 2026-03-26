@@ -18,3 +18,4 @@ async def read_todos_for_user(user_id:int, db:AsyncSession = Depends(get_db),cur
     if not todos:
         raise HTTPException(status_code=404, detail="No todos found for this user")
     return todos
+

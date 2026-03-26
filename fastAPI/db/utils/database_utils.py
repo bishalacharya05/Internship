@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 #this is engine function form sqlalchemy and it sonfigures the session to be used for database operation
-engine = create_async_engine(DATABASE_URL, echo=True)
+engine = create_async_engine(DATABASE_URL, echo=True,connect_args={"ssl": None})
 
 #it configure the session to be used for database operations
 AsyncSessionLocal = async_sessionmaker(bind=engine, class_=AsyncSession,  # IMPORTANT

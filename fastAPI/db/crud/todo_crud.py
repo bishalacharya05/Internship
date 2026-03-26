@@ -1,6 +1,6 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 import models,schemas
-from sqlalchemy import select
+from sqlalchemy import select,delete
 
 
 #function for creating todo
@@ -42,3 +42,16 @@ async def delete_todo(db:AsyncSession, todo_id:int):
         await db.delete(todo)
         await db.commit()
     return todo
+
+async def delete_todo_by_user(db:AsyncSession,user_id:int):
+
+    #fetching all the todos of the user
+    results = await db.execute(select(models.Todo).where(models.Todo.owner_id == user_id))
+    todos = results.scalars().all()
+
+    if not todos:
+        return []
+    
+    await db.execute(delete(models.Todo).where(models.Todo.owner_id == user_id))
+    await db.commit()
+    return results.scalars().all()

@@ -1,2 +1,5 @@
 #ignore git ignore file
 fastAPI/db/.env
+task_1/.env
+task_2/.env
+task_3/.env

@@ -48,10 +48,3 @@ async def delete_todo(todo_id:int, db:AsyncSession = Depends(get_db)):
     return {
         "message":"Successfully deleted"
     }
-
-#create todo for a user
-# @router.post("/users/{user_id}/todo", response_model=schemas.todoResponse)
-# async def create_todo_for_user(user_id:int, todo_data:schemas.todocreate, db:AsyncSession = Depends(get_db),current_user: models.User = Depends(get_current_user)):
-#     return await todo_crud.create_todo(db, todo_data, user_id)
-
-
