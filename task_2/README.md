@@ -33,7 +33,7 @@
 5.Login response body
     <img width="1835" height="864" alt="image" src="https://github.com/user-attachments/assets/33d297a0-aec7-4d71-b9d1-f74e727c0286" />
 6.Authorization Swagger UI
-    <img width="881" height="772" alt="image" src="https://github.com/user-attachments/assets/15dc5e2c-8b9b-488d-a9ae-1a2776057d77" />
+    <img width="881" height="772" alt="image" src="https://github.com/user-attachments/assets/15dc5e2c-8b9b-488d-a9ae-1a2776057d77" /> <br>
 7.Accessing API endpoint after authentication
     <img width="1862" height="863" alt="image" src="https://github.com/user-attachments/assets/3cc60689-f8d4-43b8-bdd6-133f3facfb82" />
 8.Authentication after authorization
