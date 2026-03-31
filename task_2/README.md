@@ -16,8 +16,9 @@
     -> verify hash password and plain password are same <br>
  4. Create config.py file and it stores all the configuration setting like secret_key, algorithm, and access_token_expire_minutes and secret_keys loaded from .env file
  5. Create main.py file and it handles following things: <br>
-    -> Create login and register API end point
-    -> Define the simple schema for user data
-    -> And also define endpoint which needs authentication to access
+    -> Create login and register API end point <br>
+    -> Define the simple schema for user data <br>
+    -> And also define endpoint which needs authentication to access <br>
     
 
+##
