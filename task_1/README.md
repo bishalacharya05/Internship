@@ -34,7 +34,8 @@ It supports sending emails with subject. message body and recipient address.
    4. Successful email
 
       <img width="615" height="339" alt="image" src="https://github.com/user-attachments/assets/306c743d-2dab-4737-84fa-dd2e5ba455b3" />
-
+## Author
+Bishal Acharya
        
 
 
