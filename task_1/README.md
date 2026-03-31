@@ -13,16 +13,16 @@ It supports sending emails with subject. message body and recipient address.
  3. install dependencies
  4. create main.py file
  5. Create API endpoints for handeling email request
-     -> we have to confighure the email configurations like:
+     -> we have to confighure the email configurations like: <br>
     {
        EMAIL_HOST=smtp.gmail.com <br>
        EMAIL_PORT=587 <br>
        EMAIL_USER=your-email@gmail.com <br>
        EMAIL_PASSWORD=password 
     }
-    -> Define schemas for sendong mail
-    -> define background task as sending mail
-    -> Create http POST method for sending mail
+    -> Define schemas for sendong mail <br>
+    -> define background task as sending mail <br>
+    -> Create http POST method for sending mail <br>
     -> All the confidentials credentials should save on .env file
 ## Screenshots
    1. Post request
