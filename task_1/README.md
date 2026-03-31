@@ -15,10 +15,10 @@ It supports sending emails with subject. message body and recipient address.
  5. Create API endpoints for handeling email request
      -> we have to confighure the email configurations like:
     {
-       EMAIL_HOST=smtp.gmail.com
-       EMAIL_PORT=587
-       EMAIL_USER=your-email@gmail.com
-       EMAIL_PASSWORD=password
+       EMAIL_HOST=smtp.gmail.com <br>
+       EMAIL_PORT=587 <br>
+       EMAIL_USER=your-email@gmail.com <br>
+       EMAIL_PASSWORD=password 
     }
     -> Define schemas for sendong mail
     -> define background task as sending mail
