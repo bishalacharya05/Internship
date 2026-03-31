@@ -3,9 +3,9 @@
 This a fastAPI-based backend application that allows users to send emails via an API.
 It supports sending emails with subject. message body and recipient address.
 ## tech Stack
- -FastAPI
- -Python
- -SMTP(for sending emails)
+ -FastAPI <br>
+ -Python <br>
+ -SMTP(for sending emails)<br>
  -Uvicorn
  ## Steps
  1. Create virtual environment:
