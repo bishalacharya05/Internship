@@ -12,8 +12,8 @@ It supports sending emails with subject. message body and recipient address.
  2. activate virtual environment
  3. install dependencies
  4. create main.py file
- 5. Create API endpoints for handeling email request
-     -> we have to confighure the email configurations like: <br>
+ 5. Create API endpoints for handeling email request ,br>
+     -> we have to configure the email configurations like: <br>
     {
        EMAIL_HOST=smtp.gmail.com <br>
        EMAIL_PORT=587 <br>
