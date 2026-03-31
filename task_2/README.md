@@ -38,6 +38,9 @@
     <img width="1862" height="863" alt="image" src="https://github.com/user-attachments/assets/3cc60689-f8d4-43b8-bdd6-133f3facfb82" />
 8.Authentication after authorization
     <img width="1852" height="887" alt="image" src="https://github.com/user-attachments/assets/fdb6758e-2257-4d18-bd80-8da798501719" />
+9.Response without authentication
+    <img width="1862" height="879" alt="image" src="https://github.com/user-attachments/assets/3a0279ac-210b-4e24-a67d-097af221d50a" />
+
 ## Author 
 Bishal Acharya
 
