@@ -26,10 +26,13 @@ It supports sending emails with subject. message body and recipient address.
     -> All the confidentials credentials should save on .env file
 ## Screenshots
    1. Post request
+      
       <img width="1830" height="872" alt="image" src="https://github.com/user-attachments/assets/a5ead51e-4160-4359-9c13-8b83abc59a2a" />
-   2. Responses
+   3. Responses
+      
       <img width="1802" height="861" alt="image" src="https://github.com/user-attachments/assets/13aadc1f-1d9d-4ab4-8fb0-a7d842ef3d55" />
-   3. Successful email
+   4. Successful email
+
       <img width="615" height="339" alt="image" src="https://github.com/user-attachments/assets/306c743d-2dab-4737-84fa-dd2e5ba455b3" />
 
        
