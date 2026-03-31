@@ -1,4 +1,4 @@
-<img width="496" height="570" alt="image" src="https://github.com/user-attachments/assets/b0264cf2-ff4d-4bca-9729-c6afb3a6ffc2" /># Building CRUD app using SQLalchemy and FastAPI
+# Building CRUD app using SQLalchemy and FastAPI
 This task is about creating  simple CRUD application 
 ## Tech stack
   -Python
