@@ -25,6 +25,8 @@
 8. DELETE method
   <img width="1448" height="888" alt="image" src="https://github.com/user-attachments/assets/0fe5b863-711a-44a2-a954-faacdbc104f1" />
 
+## Author
+Bishal Acharya
 
   
    
