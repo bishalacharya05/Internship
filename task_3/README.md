@@ -1,18 +1,18 @@
 # Building CRUD app using SQLalchemy and FastAPI
 This task is about creating  simple CRUD application 
 ## Tech stack
-  -Python
-  -FastAPi
-  -SQLALchemy
+  -Python <br>
+  -FastAPi <br>
+  -SQLALchemy <br>
   -Uvicorn
-# Steps
+## Steps
 1. Create virtual environment
 2. Activate virtual environment
 3. Install dependencies
 4. Create proper folder structure <br>
            <img width="496" height="570" alt="image" src="https://github.com/user-attachments/assets/0f8efb4b-931f-4e34-9e49-373d38854965" />
 
-#Screenshots
+## Screenshots
 1.API endpoints
   <img width="1867" height="919" alt="image" src="https://github.com/user-attachments/assets/4fdd5dc3-9b3d-4d10-a5af-a682dd31687a" />
 2.GET method
@@ -30,7 +30,8 @@ This task is about creating  simple CRUD application
 8.DELETE method
   <img width="1452" height="889" alt="image" src="https://github.com/user-attachments/assets/24cad23b-08da-4739-85cb-01260722f730" />
 
-  
+## Author
+Bishal Acharya
   
 
 
