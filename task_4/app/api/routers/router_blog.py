@@ -5,14 +5,27 @@ from app.schemas.blog_schemas import *
 from app.crud.blog_crud import *
 from app.db.database import get_db
 from typing import List
-
-
+from redis_client import redis_client
+import json
 
 router = APIRouter(prefix="/blogs" , tags=["Blogs"])
 
 @router.get("/allblogs/", response_model=List[BlogResponse])
 async def get_all(db:AsyncSession=Depends(get_db)):
-    return await get_all_blog(db)
+    cache_key = "all_blogs"
+
+    cached_data = redis_client.get(cache_key)
+    if cached_data:
+        print("CACHE HIT")
+        return json.loads(cached_data)
+    print("CACHE MISS")
+    posts = await get_all_blog(db)
+    posts_data = [
+    {c.name: getattr(post, c.name) for c in post.__table__.columns}
+    for post in posts
+]
+    redis_client.setex(cache_key, 300, json.dumps(posts_data, default=str))
+    return posts_data
 
 @router.post("/blog/",response_model=BlogCreate)
 async def create(blog:BlogCreate ,db:AsyncSession=Depends(get_db)):
